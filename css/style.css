@@ -41,3 +41,19 @@ margin-right: auto;
 .header-container {
     display: flex;
 }
+
+.hero-title{
+    color: #FFF;
+text-align: center;
+font-family: Gilroy-Bold;
+font-size: 80px;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: -0.8px;
+text-transform: capitalize;
+}
+
+.hero{
+    padding-top: 92px;
+    background-image: url(../img/hero-background.jpg);
+}
