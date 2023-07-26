@@ -6,3 +6,38 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+body {
+    font-family: Gilda Display;
+    color: #1E1E1E;
+}
+.header {
+   background-color: black;
+padding-top: 40px;
+}
+.header-logo{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+}
+.header-link {
+    color: #FFF;
+    font-size: 18px;
+font-weight: 400;
+line-height: normal;
+}
+.header-list {
+    display: flex;
+margin-left: 323px;
+gap: 62px;
+align-items: center;
+}
+.header-navigation {
+    display: flex;
+margin-right: auto;
+}
+.header-container {
+    display: flex;
+}
