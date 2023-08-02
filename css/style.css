@@ -1,114 +1,153 @@
 .container {
-    width: 1310px;
-    outline: solid red;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  width: 1310px;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 body {
-    font-family: Gilda Display;
-    color: #1E1E1E;
+  font-family: Gilda Display;
+  color: #1e1e1e;
 }
 .header {
-   background-color: black;
-padding-top: 40px;
+  background-color: black;
+  padding-top: 40px;
 }
-.header-logo{
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    text-transform: capitalize;
+.header-logo {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
 }
 .header-link {
-    color: #FFF;
-    font-size: 18px;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
 }
 .header-list {
-    display: flex;
-margin-left: 323px;
-gap: 62px;
-align-items: center;
+  display: flex;
+  margin-left: 323px;
+  gap: 62px;
+  align-items: center;
 }
 .header-navigation {
-    display: flex;
-margin-right: auto;
+  display: flex;
+  margin-right: auto;
 }
 .header-container {
-    display: flex;
+  display: flex;
 }
 
-.hero-title{
-    color: #FFF;
-text-align: center;
-font-family: 'Gilda Display';
-font-size: 80px;
-font-weight: 400;
-line-height: 130%;
-letter-spacing: -0.8px;
-text-transform: capitalize;
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Gilda Display";
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.8px;
+  text-transform: capitalize;
 }
-.hero-text{
-    color: #FFF;
-text-align: center;
-font-family: 'Gilda Display';
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 38.4px */
-max-width: 606px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 14px;
-margin-bottom: 45px;
-}
-
-.hero-input{
-    display: flex;
-width: 344px;
-padding: 8px 8px 8px 20px;
-justify-content: space-between;
-align-items: center;
-border-radius: 42px;
-border: 0.862px solid rgba(255, 255, 255, 0.60);
-background: rgba(255, 255, 255, 0.15);
-backdrop-filter: blur(4px);
-margin-left: auto;
-margin-right: auto;
-height: 56px;
-background-image: url(../img/input-image.png);
-background-repeat: no-repeat;
-background-position: right center;
-
+.hero-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Gilda Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 38.4px */
+  max-width: 606px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  margin-bottom: 45px;
 }
 
-.hero-input::placeholder{
-    color: #FFF;
-
-font-family: 'Gilda Display';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 27px */
+.hero-input {
+  display: flex;
+  width: 344px;
+  padding: 8px 8px 8px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 42px;
+  border: 0.862px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+  background-image: url(../img/input-image.png);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
- 
 
+.hero-input::placeholder {
+  color: #fff;
 
-.hero{
-    padding-top: 92px;
-    background-image: url(../img/hero-background.jpg);
-    padding-bottom: 524px;
+  font-family: "Gilda Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.hero {
+  padding-top: 92px;
+  background-image: url(../img/hero-background.jpg);
+  padding-bottom: 524px;
+}
+.why-us {
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .why-us-container {
-    display: flex;
+  display: flex;
 }
 .why-us-list {
-    display: flex;
+  display: flex;
+  margin-left: 130px;
+  gap: 28px;
 }
 .why-us-item {
-width: 284px;
+  width: 284px;
+}
+.why-us-name {
+  color: #1e1e1e;
+  font-family: "Gilda";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.why-us-text {
+  color: #1e1e1e;
+  font-family: "Gilda";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.85;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.why-us-title {
+  color: #1e1e1e;
+  font-family: "Gilda";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.why-us-info {
+color: #E58411;
+font-family: "Gilda";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 185%; 
+display: flex;
+gap: 13px;
 }
