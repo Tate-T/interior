@@ -106,6 +106,7 @@ padding-bottom: 120px;
 }
 .why-us-container {
   display: flex;
+  align-items: center;
 }
 .why-us-list {
   display: flex;
@@ -120,7 +121,7 @@ padding-bottom: 120px;
   font-family: "Gilda";
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
 .why-us-text {
@@ -138,7 +139,7 @@ padding-bottom: 120px;
   font-family: "Gilda";
   font-size: 42px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
 }
 .why-us-info {
@@ -150,4 +151,130 @@ font-weight: 400;
 line-height: 185%; 
 display: flex;
 gap: 13px;
+}
+
+.selling {
+  background: #F7F7F7;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.selling-title {
+  color: #1E1E1E;
+font-family: "Gilda";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+
+.selling-list {
+  display: flex;
+padding: 6px;
+align-items: flex-start;
+justify-content: center;
+border-radius: 44px;
+background: #EEE;
+max-width: 348px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 32px;
+}
+
+.selling-button {
+padding: 4px;
+display: flex;
+width: 84px;
+height: 45px;
+padding: 4px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 32px;
+color: #1E1E1E;
+font-family: "Gilda";
+font-size: 18px;
+font-style: normal;
+font-weight: 545;
+line-height: 185%; /* 33.3px */
+}
+
+.selling-btn {
+  width: 48px;
+  height: 48px;
+  margin-left: 121px;
+  }
+
+.selling-button:hover {
+  background: #FFF;
+}
+
+.selling-catalog{
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.selling-product {
+  border-radius: 20px;
+background: #FAFAFA;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.selling-content {
+  padding-left: 21px;
+  padding-bottom: 27px;
+  padding-top: 14px;
+  padding-right: 21px;
+  background-color: #FFF;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+height: 202px;
+}
+
+.selling-name {
+  color: #8D8D8D;
+font-family: "Inter";
+font-size: 16.755px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.selling-description {
+  color: #0D1B39;
+  font-family: "Inter";
+  font-size: 21.325px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.selling-stars {
+  margin-top: 6px;
+  display: flex;
+  margin-bottom: 49px;
+}
+
+.selling-price {
+  color: #0D1B39;
+font-family: "Inter";
+font-size: 21.325px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.selling-info {
+  display: flex;
+}
+
+.selling-sup {
+  font-size: 15.232px;
 }
