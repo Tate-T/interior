@@ -508,3 +508,67 @@ body {
 .reviews-section{
   padding-bottom: 245px;
 }
+.footer-div {
+  display: flex;
+margin-bottom:118px ;
+}
+.footer-box {
+  outline: solid 3px yellow;
+  max-width: 293px;
+  margin-right: 152px;
+ 
+} 
+.footer-item {
+  outline: solid blue;
+}
+.footer-list {
+  display: flex;
+  gap: 110px;
+
+}
+.footer-copyright {
+  display: flex;
+  outline: solid green;
+  justify-content: space-between;
+}
+.footer-terms {
+  display: flex;
+  gap: 40px;
+}
+.footer-title {
+  margin-bottom: 29px;
+  color: #1E1E1E;
+
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.28px;
+text-transform: capitalize;
+
+} 
+.footer-services {
+  margin-bottom: 20px;
+}
+.footer-facts {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.footer-div {
+  outline: solid pink;
+  width: 1064px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  padding-top: 118px;
+  background: #F7F7F7;
+  padding-bottom: 58px;
+}
+.footer-copyright {
+  width: 1064px;
+  margin-left: auto;
+  margin-right: auto;
+}
