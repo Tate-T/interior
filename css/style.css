@@ -1,6 +1,5 @@
 .container {
   width: 1310px;
-  outline: solid red;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -321,7 +320,6 @@ body {
 }
 
 .experiences-link {
-  outline: solid red;
   display: flex;
   align-items: center;
   gap: 13px;
@@ -489,14 +487,8 @@ body {
 
 .reviews-description{
   max-width: 252px;
-  outline: solid red;
   margin-left: auto;
   margin-right: auto;
-}
-
-.reviews-box{
-  outline: solid yellow;
-  
 }
 
 .reviews-list{
@@ -513,14 +505,11 @@ body {
 margin-bottom:118px ;
 }
 .footer-box {
-  outline: solid 3px yellow;
   max-width: 293px;
   margin-right: 152px;
  
 } 
-.footer-item {
-  outline: solid blue;
-}
+
 .footer-list {
   display: flex;
   gap: 110px;
@@ -528,7 +517,6 @@ margin-bottom:118px ;
 }
 .footer-copyright {
   display: flex;
-  outline: solid green;
   justify-content: space-between;
 }
 .footer-terms {
@@ -549,15 +537,22 @@ text-transform: capitalize;
 } 
 .footer-services {
   margin-bottom: 20px;
+  color: #F6973F;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.232px;
 }
 .footer-facts {
   display: flex;
   gap: 16px;
   flex-direction: column;
+
 }
 
 .footer-div {
-  outline: solid pink;
   width: 1064px;
   margin-left: auto;
   margin-right: auto;
@@ -571,4 +566,49 @@ text-transform: capitalize;
   width: 1064px;
   margin-left: auto;
   margin-right: auto;
+  color: #1E2833;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.205px;
+opacity: 0.5;
+}
+
+.footer-header {
+  margin-bottom: 29px;
+  color: #1E1E1E;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.28px;
+text-transform: capitalize;
+}
+
+.footer-text {
+  color: #1E1E1E;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 24px */
+}
+
+.footer-fact{
+ display: flex;
+ align-items: center;
+}
+
+.footer-image {
+  
+  margin-right: 10px;
+}
+
+.footer-link {
+  color: #1E1E1E;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
 }
