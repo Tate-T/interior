@@ -1,635 +1,529 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@400;500;700;900&family=Inter:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
 
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      rel="stylesheet"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link href="./css/reset.css" rel="stylesheet" />
-    <link href="./css/style.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@400;500;700;900&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet" />
 
-    <title>interrior</title>
-  </head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" rel="stylesheet"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./css/reset.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
 
-  <body>
-    <!-- header -->
-    <header class="header">
-      <div class="container header-container">
-        <nav class="header-navigation">
-          <a class="header-logo" href>Panto</a>
-          <ul class="header-list">
-            <li class="header-item">
-              <a class="header-link" href>Furniture</a>
-            </li>
-            <li class="header-item"><a class="header-link" href>Shop</a></li>
-            <li class="header-item">
-              <a class="header-link" href>About Us</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link" href>Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- <img src="./img/bag.png" alt="Bag" /> -->
-        <svg class="header-icon">
-          <use href="./img/icons.svg#icon-bag"></use>
-        </svg>
-      </div>
-    </header>
-    <!-- main -->
-    <main>
-      <!-- hero -->
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">
-            Make your interior more minimalistic & modern
-          </h1>
-          <p class="hero-text">
-            Turn your room with panto into a lot more minimalist and modern with
-            ease and speed
-          </p>
-          <input
-            class="hero-input"
-            type="text"
-            placeholder="Search furniture"
-          />
-          <button class="hero-button">
-            <svg class="hero-icon">
-              <use href="./img/icons.svg#icon-search"></use>
-            </svg>
-          </button>
-        </div>
-      </section>
-      <!-- why us -->
-      <section class="why-us">
-        <div class="container why-us-container">
-          <h2 class="why-us-title">Why Choosing Us</h2>
-          <ul class="why-us-list">
-            <li class="why-us-item">
-              <h3 class="why-us-name">Luxury facilities</h3>
-              <p class="why-us-text">
-                The advantage of hiring a workspace with us is that givees you
-                comfortable service and all-around facilities.
-              </p>
-              <a class="why-us-info" href="#">
-                <p>More Info</p>
-                <svg class="why-us-icon">
-                  <use href="./img/icons.svg#icon-arrow-right"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="why-us-item">
-              <h3 class="why-us-name">Affordable Price</h3>
-              <p class="why-us-text">
-                You can get a workspace of the highst quality at an affordable
-                price and still enjoy the facilities that are oly here.
-              </p>
-              <a class="why-us-info" href="#">
-                <p>More Info</p>
-                <svg class="why-us-icon">
-                  <use href="./img/icons.svg#icon-arrow-right"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="why-us-item">
-              <h3 class="why-us-name">Many Choices</h3>
-              <p class="why-us-text">
-                We provide many unique work space choices so that you can choose
-                the workspace to your liking.
-              </p>
-              <a class="why-us-info" href="#">
-                <p>More Info</p>
-                <svg class="why-us-icon">
-                  <use href="./img/icons.svg#icon-arrow-right"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- selling -->
-      <section class="selling">
-        <div class="container">
-          <h1 class="selling-title">Best Selling Product</h1>
-          <ul class="selling-list">
-            <li class="selling-item">
-              <button class="selling-button">Chair</button>
-            </li>
-            <li class="selling-item">
-              <button class="selling-button">Beds</button>
-            </li>
-            <li class="selling-item">
-              <button class="selling-button">Sofa</button>
-            </li>
-            <li class="selling-item">
-              <button class="selling-button">Lamp</button>
-            </li>
-          </ul>
-          <ul class="selling-catalog">
-            <li class="selling-product">
-              <img class="selling-chair" src="./img/chair1.png" alt="chair" />
-              <div class="selling-content">
-                <p class="selling-name">Chair</p>
-                <h3 class="selling-description">Sakarias Armchair</h3>
+  <title>interrior</title>
+</head>
 
-                <ul class="selling-stars">
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                </ul>
-                <div class="selling-info">
-                  <p class="selling-price">
-                    <sup class="selling-sup">$</sup>392
-                  </p>
-                  <button type="button" class="selling-btn">
-                    <svg class="selling-icom">
-                      <use href="./img/icons.svg#icon-plus"></use>
-                     </svg>
-                    </button>
-                </div>
-              </div>
-            </li>
-            <li class="selling-product">
-              <img class="selling-chair" src="./img/chair2.png" alt="chair" />
-              <div class="selling-content">
-                <p class="selling-name">Chair</p>
-                <h3 class="selling-description">Baltsar Chair</h3>
-
-                <ul class="selling-stars">
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                </ul>
-                <div class="selling-info">
-                  <p class="selling-price">
-                    <sup class="selling-sup">$</sup>299
-                  </p>
-                  <button type="button" class="selling-btn">
-                    <svg class="selling-icom">
-                      <use href="./img/icons.svg#icon-plus"></use>
-                     </svg>
-                    </button>
-              </div>
-            </li>
-            <li class="selling-product">
-              <img class="selling-chair" src="./img/chair3.png" alt="chair" />
-              <div class="selling-content">
-                <p class="selling-name">Chair</p>
-                <h3 class="selling-description">Anjay Chair</h3>
-
-                <ul class="selling-stars">
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                </ul>
-                <div class="selling-info">
-                  <p class="selling-price">
-                    <sup class="selling-sup">$</sup>519
-                  </p>
-                  <button type="button" class="selling-btn">
-                    <svg class="selling-icom">
-                      <use href="./img/icons.svg#icon-plus"></use>
-                     </svg>
-                    </button>
-                </div>
-              </div>
-            </li>
-            <li class="selling-product">
-              <img class="selling-chair" src="./img/chair4.png " alt="chair" />
-              <div class="selling-content">
-                <p class="selling-name">Chair</p>
-                <h3 class="selling-description">Nyantuy Chair</h3>
-                <ul class="selling-stars">
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                  <li class="selling-star">
-                    <svg class="selling-icon">
-                      <use href="./img/icons.svg#icon-star"></use>
-                    </svg>
-                  </li>
-                </ul>
-                <div class="selling-info">
-                  <p class="selling-price">
-                    <sup class="selling-sup">$</sup>921
-                  </p>
-                 <button type="button" class="selling-btn">
-                  <svg class="selling-icom">
-                    <use href="./img/icons.svg#icon-plus"></use>
-                   </svg>
-                  </button>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <a href="#" class="selling-text">
-            <span>
-            View all
-          </span>
-            <svg class="why-us-icon">
-              <use href="./img/icons.svg#icon-arrow-right"></use>
-            </svg>
-          </a>
-        </div>
-      </section>
-      <section class="experiences">
-        <div class="container">
-          <div class="experiences-container">
-            <p class="experiences-text">Experiences</p>
-            <h2 class="experiences-title">
-              We provide you the best experience
-            </h2>
-            <p class="experiences-info">
-              You don’t have to worry about the result because all of these
-              interiors are made by people who are professionals in their fields
-              with an elegant and lucurious style and with premium quality
-              materials
-            </p>
-            <a class="experiences-link" href>
-              <span class="experiences-more"> More Info </span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="24"
-                viewBox="0 0 48 24"
-                fill="none"
-              >
-                <path
-                  d="M4.5 12.4005H42M42 12.4005C42 12.4005 37.5119 9.44891 36.6 7.00049M42 12.4005C42 12.4005 38.0324 15.1739 36.6 17.8005"
-                  stroke="#E58411"
-                  stroke-linecap="square"
-                ></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="materials">
-        <div class="materials-container container">
-          <div class="materials-text">
-            <p class="materials-info">MATERIALS</p>
-            <h2 class="materials-txt">
-              Very serious materials for making furniture
-            </h2>
-            <p class="materials-paragrph">
-              Because panto was very serious about designing furniture for our
-              environment, using a very expensive and famous capital but at a
-              relatively low price
-            </p>
-
-            <a class="experiences-link" href>
-              <span class="experiences-more"> More Info </span>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="24"
-                viewBox="0 0 48 24"
-                fill="none"
-              >
-                <path
-                  d="M4.5 12.4005H42M42 12.4005C42 12.4005 37.5119 9.44891 36.6 7.00049M42 12.4005C42 12.4005 38.0324 15.1739 36.6 17.8005"
-                  stroke="#E58411"
-                  stroke-linecap="square"
-                ></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="reviews-section">
-        <div class="container">
-          <p class="reviews-text">Testimonials</p>
-          <h2 class="reviews-header">Our Client Reviews</h2>
-          <button class="reviews-button"></button>
-          <ul class="reviews-list">
-            <li class="reviews-item">
-              <div class="reviews-conteiner">
-                <div class="reviews-box">
-                  <img
-                    class="reviews-img"
-                    src="./img/client1.png"
-                    alt="client1"
-                  />
-                  <h3 class="reviews-name">Bang Upin</h3>
-                  <p class="reviews-info">Pedagang Asongan</p>
-                  <p class="reviews-description">
-                    “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan
-                    terlihat mahal“
-                  </p>
-                </div>
-                <ul class="reviews-stars">
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star2.png"
-                      alt="star"
-                    />
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="reviews-item">
-              <div class="reviews-conteiner">
-                <div class="reviews-box">
-                  <img
-                    class="reviews-img"
-                    src="./img/client2.png"
-                    alt="client2"
-                  />
-                  <h3 class="reviews-name">Ibuk Sukijan</h3>
-                  <p class="reviews-info">Ibu Rumah Tangga</p>
-                  <p class="reviews-description">
-                    “Makasih Panto, aku sekarang berasa tinggal di apartment
-                    karena barang-barang yang terlihat mewah“
-                  </p>
-                </div>
-                <ul class="reviews-stars">
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star2.png"
-                      alt="star"
-                    />
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="reviews-item">
-              <div class="reviews-conteiner">
-                <div class="reviews-box">
-                  <img
-                    class="reviews-img"
-                    src="./img/client3.png"
-                    alt="client3"
-                  />
-                  <h3 class="reviews-name">Mpok Ina</h3>
-                  <p class="reviews-info">Karyawan Swasta</p>
-                  <p class="reviews-description">
-                    “Sangat terjangkau untuk kantong saya yang tidak terlalu
-                    banyak“
-                  </p>
-                </div>
-                <ul class="reviews-stars">
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star.png"
-                      alt="star"
-                    />
-                  </li>
-                  <li class="reviews-star">
-                    <img
-                      class="reviews-photo"
-                      src="./img/star2.png"
-                      alt="star"
-                    />
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container header-container">
+      <nav class="header-navigation">
+        <a class="header-logo" href>Panto</a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href>Furniture</a>
+          </li>
+          <li class="header-item"><a class="header-link" href>Shop</a></li>
+          <li class="header-item">
+            <a class="header-link" href>About Us</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href>Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- <img src="./img/bag.png" alt="Bag" /> -->
+      <svg class="header-icon">
+        <use href="./img/icons.svg#icon-bag"></use>
+      </svg>
+    </div>
+  </header>
+  <!-- main -->
+  <main>
+    <!-- hero -->
+    <section class="hero">
       <div class="container">
-        <div class="footer-div">
-          <div class="footer-box">
-            <h2 class="footer-header">Panto</h2>
-            <p class="footer-text">
+        <h1 class="hero-title">
+          Make your interior more minimalistic & modern
+        </h1>
+        <p class="hero-text">
+          Turn your room with panto into a lot more minimalist and modern with
+          ease and speed
+        </p>
+        <input class="hero-input" type="text" placeholder="Search furniture" />
+        <button class="hero-button">
+          <svg class="hero-icon">
+            <use href="./img/icons.svg#icon-search"></use>
+          </svg>
+        </button>
+      </div>
+    </section>
+    <!-- why us -->
+    <section class="why-us">
+      <div class="container why-us-container">
+        <h2 class="why-us-title">Why Choosing Us</h2>
+        <ul class="why-us-list">
+          <li class="why-us-item">
+            <h3 class="why-us-name">Luxury facilities</h3>
+            <p class="why-us-text">
               The advantage of hiring a workspace with us is that givees you
               comfortable service and all-around facilities.
             </p>
-          </div>
-          <ul class="footer-list">
-            <li class="footer-item">
-              <h3 class="footer-services">Services</h3>
-              <ul class="footer-facts">
-                <li class="footer-fact">Email Marketing</li>
-                <li class="footer-fact">Campaigns</li>
-                <li class="footer-fact">Branding</li>
-              </ul>
-            </li>
-            <li class="footer-item">
-              <h3 class="footer-services">Furniture</h3>
-              <ul class="footer-facts">
-                <li class="footer-fact">Beds</li>
-                <li class="footer-fact">Chair</li>
-                <li class="footer-fact">All</li>
-              </ul>
-            </li>
-            <li class="footer-item">
-              <h3 class="footer-services">Follow Us</h3>
-              <ul class="footer-facts">
-                <li class="footer-fact">
-                  <img
-                    src="./img/facebook.png"
-                    alt="Facebook"
-                    class="footer-image"
-                  />
-                  <a href="" class="footer-link">Facebook</a>
+            <a class="why-us-info" href="#">
+              <p>More Info</p>
+              <svg class="why-us-icon">
+                <use href="./img/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="why-us-item">
+            <h3 class="why-us-name">Affordable Price</h3>
+            <p class="why-us-text">
+              You can get a workspace of the highst quality at an affordable
+              price and still enjoy the facilities that are oly here.
+            </p>
+            <a class="why-us-info" href="#">
+              <p>More Info</p>
+              <svg class="why-us-icon">
+                <use href="./img/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="why-us-item">
+            <h3 class="why-us-name">Many Choices</h3>
+            <p class="why-us-text">
+              We provide many unique work space choices so that you can choose
+              the workspace to your liking.
+            </p>
+            <a class="why-us-info" href="#">
+              <p>More Info</p>
+              <svg class="why-us-icon">
+                <use href="./img/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- selling -->
+    <section class="selling">
+      <div class="container">
+        <h1 class="selling-title">Best Selling Product</h1>
+        <ul class="selling-list">
+          <li class="selling-item">
+            <button class="selling-button">Chair</button>
+          </li>
+          <li class="selling-item">
+            <button class="selling-button">Beds</button>
+          </li>
+          <li class="selling-item">
+            <button class="selling-button">Sofa</button>
+          </li>
+          <li class="selling-item">
+            <button class="selling-button">Lamp</button>
+          </li>
+        </ul>
+        <ul class="selling-catalog">
+          <li class="selling-product">
+            <img class="selling-chair" src="./img/chair1.png" alt="chair" />
+            <div class="selling-content">
+              <p class="selling-name">Chair</p>
+              <h3 class="selling-description">Sakarias Armchair</h3>
+
+              <ul class="selling-stars">
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
                 </li>
-                <li class="footer-fact">
-                  <img
-                    src="./img/twitter.png"
-                    alt="Ilon Musk"
-                    class="footer-image"
-                  />
-                  <a href="" class="footer-link">Twitter</a>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
                 </li>
-                <li class="footer-fact">
-                  <img
-                    src="./img/instagram.png"
-                    alt="Insta"
-                    class="footer-image"
-                  />
-                  <a href="" class="footer-link">Instagram</a>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-copyright">
-          <p>Copyright © 2021</p>
-          <ul class="footer-terms">
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
-          </ul>
+              <div class="selling-info">
+                <p class="selling-price">
+                  <sup class="selling-sup">$</sup>392
+                </p>
+                <button type="button" class="selling-btn">
+                  <svg class="selling-icom">
+                    <use href="./img/icons.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="selling-product">
+            <img class="selling-chair" src="./img/chair2.png" alt="chair" />
+            <div class="selling-content">
+              <p class="selling-name">Chair</p>
+              <h3 class="selling-description">Baltsar Chair</h3>
+
+              <ul class="selling-stars">
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="selling-info">
+                <p class="selling-price">
+                  <sup class="selling-sup">$</sup>299
+                </p>
+                <button type="button" class="selling-btn">
+                  <svg class="selling-icom">
+                    <use href="./img/icons.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+          </li>
+          <li class="selling-product">
+            <img class="selling-chair" src="./img/chair3.png" alt="chair" />
+            <div class="selling-content">
+              <p class="selling-name">Chair</p>
+              <h3 class="selling-description">Anjay Chair</h3>
+
+              <ul class="selling-stars">
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="selling-info">
+                <p class="selling-price">
+                  <sup class="selling-sup">$</sup>519
+                </p>
+                <button type="button" class="selling-btn">
+                  <svg class="selling-icom">
+                    <use href="./img/icons.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="selling-product">
+            <img class="selling-chair" src="./img/chair4.png " alt="chair" />
+            <div class="selling-content">
+              <p class="selling-name">Chair</p>
+              <h3 class="selling-description">Nyantuy Chair</h3>
+              <ul class="selling-stars">
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li class="selling-star">
+                  <svg class="selling-icon">
+                    <use href="./img/icons.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="selling-info">
+                <p class="selling-price">
+                  <sup class="selling-sup">$</sup>921
+                </p>
+                <button type="button" class="selling-btn">
+                  <svg class="selling-icom">
+                    <use href="./img/icons.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="selling-text">
+          <span>
+            View all
+          </span>
+          <svg class="why-us-icon">
+            <use href="./img/icons.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </div>
+    </section>
+    <section class="experiences">
+      <div class="container">
+        <div class="experiences-container">
+          <img src="./img/" alt="">
+          <p class="experiences-text">Experiences</p>
+          <h2 class="experiences-title">
+            We provide you the best experience
+          </h2>
+          <p class="experiences-info">
+            You don’t have to worry about the result because all of these
+            interiors are made by people who are professionals in their fields
+            with an elegant and lucurious style and with premium quality
+            materials
+          </p>
+          <a class="experiences-link" href>
+            <span class="experiences-more"> More Info </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="24" viewBox="0 0 48 24" fill="none">
+              <path
+                d="M4.5 12.4005H42M42 12.4005C42 12.4005 37.5119 9.44891 36.6 7.00049M42 12.4005C42 12.4005 38.0324 15.1739 36.6 17.8005"
+                stroke="#E58411" stroke-linecap="square"></path>
+            </svg>
+          </a>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+    <section class="materials">
+      <div class="materials-container container">
+        <div class="materials-text">
+          <p class="materials-info">MATERIALS</p>
+          <h2 class="materials-txt">
+            Very serious materials for making furniture
+          </h2>
+          <p class="materials-paragrph">
+            Because panto was very serious about designing furniture for our
+            environment, using a very expensive and famous capital but at a
+            relatively low price
+          </p>
+
+          <a class="experiences-link" href>
+            <span class="experiences-more"> More Info </span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="24" viewBox="0 0 48 24" fill="none">
+              <path
+                d="M4.5 12.4005H42M42 12.4005C42 12.4005 37.5119 9.44891 36.6 7.00049M42 12.4005C42 12.4005 38.0324 15.1739 36.6 17.8005"
+                stroke="#E58411" stroke-linecap="square"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="reviews-section">
+      <div class="container">
+        <p class="reviews-text">Testimonials</p>
+        <h2 class="reviews-header">Our Client Reviews</h2>
+        <button class="reviews-button"></button>
+        <ul class="reviews-list">
+          <li class="reviews-item">
+            <div class="reviews-conteiner">
+              <div class="reviews-box">
+                <img class="reviews-img" src="./img/client1.png" alt="client1" />
+                <h3 class="reviews-name">Bang Upin</h3>
+                <p class="reviews-info">Pedagang Asongan</p>
+                <p class="reviews-description">
+                  “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan
+                  terlihat mahal“
+                </p>
+              </div>
+              <ul class="reviews-stars">
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star2.png" alt="star" />
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="reviews-item">
+            <div class="reviews-conteiner">
+              <div class="reviews-box">
+                <img class="reviews-img" src="./img/client2.png" alt="client2" />
+                <h3 class="reviews-name">Ibuk Sukijan</h3>
+                <p class="reviews-info">Ibu Rumah Tangga</p>
+                <p class="reviews-description">
+                  “Makasih Panto, aku sekarang berasa tinggal di apartment
+                  karena barang-barang yang terlihat mewah“
+                </p>
+              </div>
+              <ul class="reviews-stars">
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star2.png" alt="star" />
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="reviews-item">
+            <div class="reviews-conteiner">
+              <div class="reviews-box">
+                <img class="reviews-img" src="./img/client3.png" alt="client3" />
+                <h3 class="reviews-name">Mpok Ina</h3>
+                <p class="reviews-info">Karyawan Swasta</p>
+                <p class="reviews-description">
+                  “Sangat terjangkau untuk kantong saya yang tidak terlalu
+                  banyak“
+                </p>
+              </div>
+              <ul class="reviews-stars">
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star.png" alt="star" />
+                </li>
+                <li class="reviews-star">
+                  <img class="reviews-photo" src="./img/star2.png" alt="star" />
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-div">
+        <div class="footer-box">
+          <h2 class="footer-header">Panto</h2>
+          <p class="footer-text">
+            The advantage of hiring a workspace with us is that givees you
+            comfortable service and all-around facilities.
+          </p>
+        </div>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <h3 class="footer-services">Services</h3>
+            <ul class="footer-facts">
+              <li class="footer-fact">Email Marketing</li>
+              <li class="footer-fact">Campaigns</li>
+              <li class="footer-fact">Branding</li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <h3 class="footer-services">Furniture</h3>
+            <ul class="footer-facts">
+              <li class="footer-fact">Beds</li>
+              <li class="footer-fact">Chair</li>
+              <li class="footer-fact">All</li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <h3 class="footer-services">Follow Us</h3>
+            <ul class="footer-facts">
+              <li class="footer-fact">
+                <img src="./img/facebook.png" alt="Facebook" class="footer-image" />
+                <a href="" class="footer-link">Facebook</a>
+              </li>
+              <li class="footer-fact">
+                <img src="./img/twitter.png" alt="Ilon Musk" class="footer-image" />
+                <a href="" class="footer-link">Twitter</a>
+              </li>
+              <li class="footer-fact">
+                <img src="./img/instagram.png" alt="Insta" class="footer-image" />
+                <a href="" class="footer-link">Instagram</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-copyright">
+        <p>Copyright © 2021</p>
+        <ul class="footer-terms">
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
