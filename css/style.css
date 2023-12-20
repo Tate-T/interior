@@ -665,6 +665,28 @@ body {
   text-transform: capitalize;
 }
 
+.footer-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-fact:nth-child(1) .footer-link {
+  gap: 22px;
+}
+
+.footer-link:nth-child(1):hover, .footer-link:nth-child(2):hover, .footer-link:nth-child(3):hover  {
+fill: #F6973F;
+color: #F6973F;
+}
+
+.footer-fact:nth-child(2) .footer-link {
+  gap: 11px;
+}
+
+.footer-fact:nth-child(3) .footer-link {
+  gap: 10px;
+}
+
 .footer-text {
   color: #1E1E1E;
   font-size: 15px;
@@ -672,11 +694,6 @@ body {
   font-weight: 400;
   line-height: 160%;
   /* 24px */
-}
-
-.footer-fact {
-  display: flex;
-  align-items: center;
 }
 
 .footer-image {
