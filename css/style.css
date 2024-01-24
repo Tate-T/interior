@@ -27,8 +27,8 @@ body {
   text-transform: capitalize;
 }
 
-.header-schopping{
-position: relative;
+.header-schopping {
+  position: relative;
 }
 
 .header-icon {
@@ -36,6 +36,7 @@ position: relative;
   height: 34px;
   fill: #FFFFFF;
 }
+
 .header-statistics {
   display: flex;
   justify-content: center;
@@ -406,7 +407,7 @@ position: relative;
 
 /* experiences */
 
-.experiences .container{
+.experiences .container {
   position: relative;
 }
 
@@ -415,15 +416,15 @@ position: relative;
   margin-left: auto;
 }
 
-.experience-img{
+.experience-img {
   position: absolute;
-  top: 0;
+  top: -17px;
   left: 0;
 }
 
 .experiences {
   padding-top: 323px;
-  padding-bottom: 350px;
+  padding-bottom: 474px;
 }
 
 .experiences-link {
@@ -478,14 +479,15 @@ position: relative;
 
 
 
-/* .materials {
-  padding-top: ;
-} */
+.materials-container {
+  position: relative;
+
+}
+
+
 .materials-txt {
   color: #1E1E1E;
-
   font-size: 42px;
-
   font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
@@ -514,6 +516,34 @@ position: relative;
 
 .materials-text {
   width: 556px;
+}
+
+.materials-box {
+  column-gap: 47px;
+  row-gap: 42px;
+  width: 894px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: -124px;
+  right: -184px;
+}
+
+.materials-chairs {
+  width: 223px;
+  height: 229px;
+}
+
+.materials-sofa {
+  width: 223px;
+  height: 317px;
+}
+
+.materials-table {
+  width: 629px;
+  height: 445px;
 }
 
 .reviews-section {
