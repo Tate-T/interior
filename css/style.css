@@ -382,15 +382,16 @@ body {
 
 }
 
-.selling-icom {
+.selling-plus {
   width: 24px;
   height: 24px;
   fill: #FFFFFF;
   transition: fill 250s ease-in-out;
 }
 
-.selling-btn:hover .selling-icom {
+.selling-btn:hover .selling-plus {
   fill: #0D1B39;
+  
 }
 
 .selling-btn {
@@ -402,6 +403,10 @@ body {
   justify-content: center;
   align-items: center;
   transition: background-color 250ms ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.selling-btn:hover svg{
+  fill: #000;
 }
 
 .selling-btn:hover {
