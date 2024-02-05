@@ -277,11 +277,6 @@ body {
   background-color: #fff;
 }
 
-.selling-btn {
-  width: 48px;
-  height: 48px;
-  margin-left: 121px;
-}
 
 
 .selling-catalog {
@@ -320,11 +315,6 @@ body {
   line-height: normal;
 }
 
-.selling-icon {
-  width: 18px;
-  height: 18px;
-  fill: #F6B76F;
-}
 
 .selling-description {
   color: #0d1b39;
@@ -344,6 +334,12 @@ body {
   margin-top: 6px;
   display: flex;
   margin-bottom: 49px;
+}
+
+.selling-icon {
+  width: 18px;
+  height: 18px;
+  fill: #F6B76F;
 }
 
 .selling-price {
@@ -382,19 +378,12 @@ body {
 
 }
 
-.selling-plus {
-  width: 24px;
-  height: 24px;
-  fill: #FFFFFF;
-  transition: fill 250s ease-in-out;
-}
 
-.selling-btn:hover .selling-plus {
-  fill: #0D1B39;
-  
-}
 
 .selling-btn {
+  width: 48px;
+  height: 48px;
+  margin-left: 121px;
   background: #0D1B39;
   border-radius: 50%;
   width: 48px;
@@ -405,13 +394,20 @@ body {
   transition: background-color 250ms ease-in-out, box-shadow 1s ease-in-out;
 }
 
-.selling-btn:hover svg{
-  fill: #000;
-}
 
 .selling-btn:hover {
   background-color: #FFF;
   box-shadow: 1px 2px 15px 5px #0D1B39;
+}
+.selling-plus {
+  width: 24px;
+  height: 24px;
+  fill: #FFFFFF;
+  transition: fill 250s ease-in-out;
+}
+
+.selling-btn:hover .selling-plus {
+  fill: #0D1B39;
 }
 
 /* experiences */
