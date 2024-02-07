@@ -269,7 +269,7 @@ body {
   font-style: normal;
   font-weight: 545;
   line-height: 185%;
-  transition: background-color 250ms ease-in-out ;
+  transition: background-color 250ms ease-in-out;
   /* 33.3px */
 }
 
@@ -399,11 +399,12 @@ body {
   background-color: #FFF;
   box-shadow: 1px 2px 15px 5px #0D1B39;
 }
+
 .selling-plus {
   width: 24px;
   height: 24px;
   fill: #FFFFFF;
-  transition: fill 250s ease-in-out;
+  transition: fill 250ms ease-in-out;
 }
 
 .selling-btn:hover .selling-plus {
@@ -749,18 +750,18 @@ body {
 
 .footer-fact:nth-child(1) .footer-link {
   gap: 22px;
-  transition: fill 250ms ease-in-out;
+  transition: fill 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 
 .footer-fact:nth-child(2) .footer-link {
   gap: 11px;
-  transition: fill 250ms ease-in-out;
+  transition: fill 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .footer-fact:nth-child(3) .footer-link {
   gap: 10px;
-  transition: fill 250ms ease-in-out;
+  transition: fill 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .footer-link:nth-child(1):hover,
