@@ -15,6 +15,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="./css/reset.css" rel="stylesheet" />
   <link href="./css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>interrior</title>
 </head>
@@ -39,7 +41,7 @@
         </ul>
       </nav>
       <!-- <img src="./img/bag.png" alt="Bag" /> -->
-      <div class="header-schopping">
+      <div class="header-schopping animate__heartBeat">
         <svg class="header-icon">
           <use href="./img/icons.svg#icon-bag"></use>
         </svg>
@@ -72,9 +74,9 @@
     <!-- why us -->
     <section class="why-us">
       <div class="container why-us-container">
-        <h2 class="why-us-title">Why Choosing Us</h2>
+        <h2 data-aos-duration="3000" data-aos="fade-right" class="why-us-title">Why Choosing Us</h2>
         <ul class="why-us-list">
-          <li class="why-us-item">
+          <li data-aos-duration="2000" data-aos="flip-right" class="why-us-item">
             <h3 class="why-us-name">Luxury facilities</h3>
             <p class="why-us-text">
               The advantage of hiring a workspace with us is that givees you
@@ -87,7 +89,7 @@
               </svg>
             </a>
           </li>
-          <li class="why-us-item">
+          <li data-aos-duration="2000" data-aos="flip-right" class="why-us-item">
             <h3 class="why-us-name">Affordable Price</h3>
             <p class="why-us-text">
               You can get a workspace of the highst quality at an affordable
@@ -100,7 +102,7 @@
               </svg>
             </a>
           </li>
-          <li class="why-us-item">
+          <li data-aos-duration="2000" data-aos="flip-right" class="why-us-item">
             <h3 class="why-us-name">Many Choices</h3>
             <p class="why-us-text">
               We provide many unique work space choices so that you can choose
@@ -548,6 +550,10 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
