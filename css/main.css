@@ -11,6 +11,29 @@ body {
   color: #1e1e1e;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
 .header {
   padding-top: 40px;
   position: absolute;
@@ -125,6 +148,15 @@ body {
   outline: none;
 }
 
+.hero-input::-moz-placeholder {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+
 .hero-input::placeholder {
   color: #fff;
   font-size: 18px;
@@ -160,7 +192,6 @@ body {
   right: 8px;
   bottom: 8px;
 }
-
 
 .why-us {
   padding-top: 120px;
@@ -224,6 +255,11 @@ body {
   gap: 13px;
 }
 
+/* experiences */
+.why-us-icon {
+  margin-left: 12px;
+}
+
 .selling {
   background: #f7f7f7;
   padding-bottom: 50px;
@@ -277,8 +313,6 @@ body {
   background-color: #fff;
 }
 
-
-
 .selling-catalog {
   display: flex;
   gap: 42px;
@@ -314,7 +348,6 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-
 
 .selling-description {
   color: #0d1b39;
@@ -368,17 +401,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 185%;
-
   margin-top: 60px;
   display: flex;
   align-items: center;
   text-align: center;
-
   justify-content: center;
-
 }
-
-
 
 .selling-btn {
   width: 48px;
@@ -393,7 +421,6 @@ body {
   align-items: center;
   transition: background-color 250ms ease-in-out, box-shadow 1s ease-in-out;
 }
-
 
 .selling-btn:hover {
   background-color: #FFF;
@@ -410,8 +437,6 @@ body {
 .selling-btn:hover .selling-plus {
   fill: #0D1B39;
 }
-
-/* experiences */
 
 .experiences .container {
   position: relative;
@@ -470,10 +495,6 @@ body {
   /* 33.3px */
 }
 
-.why-us-icon {
-  margin-left: 12px;
-}
-
 .experiences-link {
   color: #e58411;
   font-size: 14px;
@@ -483,13 +504,9 @@ body {
   /* 25.9px */
 }
 
-
-
 .materials-container {
   position: relative;
-
 }
-
 
 .materials-txt {
   color: #1E1E1E;
@@ -506,7 +523,6 @@ body {
   font-weight: 400;
   line-height: 185%;
   margin-bottom: 24px;
-
 }
 
 .materials-info {
@@ -517,7 +533,6 @@ body {
   letter-spacing: 3.15px;
   text-transform: uppercase;
   margin-bottom: 20px;
-
 }
 
 .materials-text {
@@ -525,7 +540,8 @@ body {
 }
 
 .materials-box {
-  column-gap: 47px;
+  -moz-column-gap: 47px;
+       column-gap: 47px;
   row-gap: 42px;
   width: 894px;
   height: 700px;
@@ -553,7 +569,6 @@ body {
 }
 
 .reviews-section {
-
   padding-top: 240px;
   padding-bottom: 215px;
 }
@@ -591,13 +606,13 @@ body {
 
 .reviews-stars {
   display: flex;
-
 }
 
 .reviews-item {
   border-radius: 18.118px;
   background: rgba(31, 29, 29, 0.84);
-  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+          backdrop-filter: blur(5.5px);
   width: 370px;
   height: 476px;
   display: flex;
@@ -614,7 +629,8 @@ body {
 .reviews-conteiner {
   border-radius: 18.118px;
   background: rgba(255, 255, 255, 0.84);
-  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+          backdrop-filter: blur(5.5px);
   width: 334px;
   height: 260px;
   display: flex;
@@ -656,13 +672,11 @@ body {
 .footer-box {
   max-width: 293px;
   margin-right: 152px;
-
 }
 
 .footer-list {
   display: flex;
   gap: 110px;
-
 }
 
 .footer-copyright {
@@ -678,14 +692,12 @@ body {
 .footer-title {
   margin-bottom: 29px;
   color: #1E1E1E;
-
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.28px;
   text-transform: capitalize;
-
 }
 
 .footer-services {
@@ -703,7 +715,6 @@ body {
   display: flex;
   gap: 16px;
   flex-direction: column;
-
 }
 
 .footer-div {
@@ -753,7 +764,6 @@ body {
   transition: fill 250ms ease-in-out, color 250ms ease-in-out;
 }
 
-
 .footer-fact:nth-child(2) .footer-link {
   gap: 11px;
   transition: fill 250ms ease-in-out, color 250ms ease-in-out;
@@ -781,7 +791,6 @@ body {
 }
 
 .footer-image {
-
   margin-right: 10px;
 }
 
@@ -792,4 +801,4 @@ body {
   font-weight: 400;
   line-height: 160%;
   /* 24px */
-}
+}/*# sourceMappingURL=main.css.map */
