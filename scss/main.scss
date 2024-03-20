@@ -1,8 +1,7 @@
 @import "./base/reset.scss";
 @import "./base/base.scss";
-
-
 @import "./utills/placeholder";
+@import "./utills/_mixin";
 @import "./sections/header";
 @import "./sections/hero";
 @import "./sections/why-us";

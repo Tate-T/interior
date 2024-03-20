@@ -223,7 +223,7 @@ body {
 }
 
 .why-us-icon {
-  stroke: #E58411;
+  stroke: #e58411;
   width: 48px;
   height: 24px;
 }
@@ -231,9 +231,9 @@ body {
 .why-us-text {
   color: #1e1e1e;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 1.85;
+  line-height: 185%;
+  margin-bottom: 24px;
   margin-top: 20px;
   margin-bottom: 14px;
 }
@@ -476,13 +476,11 @@ body {
 }
 
 .experiences-info {
-  margin-bottom: 24px;
   color: #1e1e1e;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 185%;
-  /* 33.3px */
+  margin-bottom: 24px;
 }
 
 .experiences-link {
@@ -503,7 +501,7 @@ body {
 }
 
 .materials-paragrph {
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-size: 18px;
   font-weight: 400;
   line-height: 185%;
@@ -511,7 +509,7 @@ body {
 }
 
 .materials-info {
-  color: #E58411;
+  color: #e58411;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
@@ -559,7 +557,7 @@ body {
 }
 
 .reviews-text {
-  color: #E58411;
+  color: #e58411;
   text-align: center;
   font-family: Roboto;
   font-size: 18px;
@@ -573,7 +571,7 @@ body {
 }
 
 .reviews-header {
-  color: #1E1E1E;
+  color: #1e1e1e;
   text-align: center;
   font-family: Roboto;
   font-size: 42px;
@@ -637,6 +635,13 @@ body {
   max-width: 252px;
   margin-left: auto;
   margin-right: auto;
+  color: #1e1e1e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 185%;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: Gilroy-Regular;
 }
 
 .reviews-list {
